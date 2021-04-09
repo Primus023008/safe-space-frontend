@@ -1,0 +1,13 @@
+.CTA{
+    border: none;
+    background: #98A970;
+    padding: 10px 40px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    margin:5vh 0vw;
+    color: white;
+    cursor:pointer;
+    border:none;
+    outline: none;
+}

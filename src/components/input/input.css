@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.inputbarsmall{
+    width:20vw;
+    height:8vh;
+    border:none;
+    outline:none;
+    background-color: #F5F4F4;
+    padding-left: 2vw;
+    font-family: "Quicksand";
+
+}
+
+.inputbarbig{
+    width:24vw;
+    height:8vh;
+    border:none;
+    outline:none;
+    background-color: #F5F4F4;
+    padding-left: 2vw;
+    font-family: "Quicksand";
+
+}
+
+.editbutton{
+    width:8vh;
+    height:8.2vh;
+    background-color: #CFDAB6;
+    border:none;
+    outline:none;
+
+}
+
+.fullinput{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:1vh 2vw;
+}

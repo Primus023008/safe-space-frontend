@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+
 .mainlanding {
     width:100vw;
     height:100vh;
@@ -17,6 +20,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    overflow:hidden;
     justify-content: flex-end;
 }
 
@@ -24,6 +28,12 @@
     width:50vw;
     height:100vh;
     background:transparent;
+    padding: 0 5vw 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 .phone {
@@ -35,5 +45,31 @@
 
 .phone video{
     width:100%;
-    border-radius:40px 40px 0px 0px;    ;
+    border-radius:40px 40px 0px 0px;
 }
+
+.rightlanding img{
+    height: 100px;
+    width: auto;
+    margin:2vh 0vw;
+}
+
+#h1{
+    width:35vw;
+    font-family:"Prata";
+    font-size: 50px;
+    color:rgb(68, 68, 68);
+    text-align: right;
+    margin:2vh 0vw;
+}
+
+#sub{
+    width:30vw;
+    font-family:"Quicksand";
+    font-size: 20px;
+    color:rgb(143, 143, 143);
+    text-align: right;
+    letter-spacing:0.5px;
+    margin:0;
+}
+
