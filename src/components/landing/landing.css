@@ -1,0 +1,39 @@
+.mainlanding {
+    width:100vw;
+    height:100vh;
+    background:transparent;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.leftlanding {
+    width:50vw;
+    height:100vh;
+    background: linear-gradient(90deg, rgba(207,218,182,1) 50%,  rgba(255,255,255,1) 50%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightlanding {
+    width:50vw;
+    height:100vh;
+    background:transparent;
+}
+
+.phone {
+    width: 25vw;
+    height: 92vh;
+    background: red;
+    border-radius:40px 40px 0px 0px;    ;
+}
+
+.phone video{
+    width:100%;
+    border-radius:40px 40px 0px 0px;    ;
+}

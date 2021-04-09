@@ -1,0 +1,16 @@
+.navtop {
+    width:94vw;
+    height:8vh;
+    background: transparent;
+    padding:4vh 3vw;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    position: fixed;
+}
+.navtop a{
+    text-decoration: none;
+    color: gray;
+    margin: 0vh 2vw;
+    font-size: 16px;
+}
