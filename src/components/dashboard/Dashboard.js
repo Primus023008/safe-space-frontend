@@ -3,7 +3,7 @@ import './dashboard.css'
 import Feature from '../featureComp/FeatureComp'
 import img from '../../assets/Safe Space Illustrations 1.png'
 import Button from '../button/Button'
-
+import Tile from '../gridComp/GridComp'
 const Dashboard = () => {
     return (
         <div className="dashmain">
@@ -51,6 +51,28 @@ const Dashboard = () => {
             <div className="explore">
                 <p className="h2">Explore Daily's</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget facilisis massa sed nisi. Tincidunt eget ut fermentum, a dignissim mattis. Nulla feugiat duis ipsum neque enim. Quis fermentum faucibus pellentesque eu, convallis dictum in. Maecenas cursus pharetra arcu gravida urna at nullam semper. Facilisis ut non viverra ultricies. </p>
+                <div className="grid">
+                    <div className="column">
+                        <Tile/>
+                        <Tile/>
+                        <Tile/>
+                    </div>
+                    <div className="column">
+                        <Tile/>
+                        <Tile/>
+                        <Tile/>
+                    </div>
+                    <div className="column">
+                        <Tile/>
+                        <Tile/>
+                        <Tile/>
+                    </div>
+                    <div className="column">
+                        <Tile/>
+                        <Tile/>
+                        <Tile/>
+                    </div>
+                </div>
             </div>
         </div>
     )

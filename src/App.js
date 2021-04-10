@@ -5,6 +5,7 @@ import User from './containers/user/User'
 import Dashboard from  './containers/dashboard/Dashboard'
 import Discover from './containers/discover/Discover'
 import SideNav from './components/sideNav/SideNav'
+import Journal from './containers/journal/Journal'
 import {
   BrowserRouter as Router,
   Route
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" component={Dashboard} exact/>
           <Route path="/account" component={User} exact/>
           <Route path="/discover" component={Discover} exact/>
+          <Route path="/journal" component={Journal} exact/>
         </SideNav>
       }
     </Router>

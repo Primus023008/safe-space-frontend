@@ -1,0 +1,33 @@
+.journal{
+    width:100%;
+    min-height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.journaltop{
+    width:100%;
+    min-height:30vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.journaltop img{
+    width:10vw;
+    height:auto;
+}
+
+.journaltopleft{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    flex-grow: 1;
+    overflow: hidden;
+    margin-right:2%;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
