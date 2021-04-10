@@ -25,7 +25,7 @@ const Dashboard = () => {
                 <div className="featuresleft">
                     <Feature label="Chat with your AR Buddy "
                     color="redfeature"/>
-                    <Feature label="Put me to sleep "
+                    <Feature label="Put me to sleep"
                     color="bluefeature"/>
                     <Feature label="Show and tell "
                     color="greenfeature"/>
@@ -47,9 +47,13 @@ const Dashboard = () => {
                 </div>
 
             </div>
+
+            <div className="explore">
+                <p className="h2">Explore Daily's</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget facilisis massa sed nisi. Tincidunt eget ut fermentum, a dignissim mattis. Nulla feugiat duis ipsum neque enim. Quis fermentum faucibus pellentesque eu, convallis dictum in. Maecenas cursus pharetra arcu gravida urna at nullam semper. Facilisis ut non viverra ultricies. </p>
+            </div>
         </div>
     )
 }
 
 export default Dashboard
-
