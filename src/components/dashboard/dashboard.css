@@ -1,13 +1,130 @@
 .dashmain{
     width:100%;
-    height:90vh;
+    min-height:90vh;
     display:flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .books{
     width:100%;
     height:30vh;
-    background-color: red;
+    background-color:transparent;
+    margin-top: 2vh;
+    display:flex;
+    flex-direction: row-reverse;
 }
+
+.booksright{
+    width:30vh;
+    height:30vh;
+    background-color: #E5E7F9;
+    border-radius: 20px;
+}
+
+.booksleft{
+    min-height:30vh;
+    padding: 0.5vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-grow: 1;
+    
+}
+
+.h2{
+    font-family: "Prata";
+    font-size: 30px;
+
+}
+
+.features{
+    width:100%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: flex-start;
+    background-color: transparent;
+    /* flex-wrap: wrap; */
+}
+
+.features img{
+    height:50vh;
+    width:auto;
+}
+
+.featuresleft{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    background-color:transparent;
+    /* margin: 1vh 0vw; */
+}
+
+.mediright{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.medipost{
+    width:50vh;
+    height:50vh;
+    background-color: #FCE0C0;
+    border-radius: 20px;
+    margin:0;
+}
+
+.medileft{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* flex-wrap:wrap; */
+    overflow: hidden;
+    margin-right:2%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.medileft p{
+    margin:0;
+    width:80%;
+}
+.small-show{
+    display:none;
+}
+
+@media screen and (max-width:800px){
+    .features{
+       flex-direction:column;
+       align-items:flex-start;
+    }
+    .features img{
+        height:40vh;
+        /* margin:0 auto; */
+        width:auto;
+    }
+    .smallscreen-items{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+        align-items:center;
+        justify-content:space-between;
+    }
+    .small-show{
+        display:flex;
+    }
+    .small-hide{
+        display:none;
+    }
+}
+
+
