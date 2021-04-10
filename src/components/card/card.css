@@ -6,14 +6,16 @@
     justify-content:space-between;
 }
 .sign{
-    padding:7vh;
+    padding:7vh 6vh;
     border-radius:10px;
     min-height:20vh;
-    width:40vh;
+    width:60vh;
+    font-size:17px;
     background:#FFF7AF;
 }
 .sign p{
     font-weight:300;
+    color:#474747;
 }
 .journal{
     display:flex;
@@ -23,6 +25,9 @@
 }
 .journal p{
     text-align:right;
+    width:50%;
+    font-size:17px;
+    color:#474747;
 }
 .row{
     display:flex;

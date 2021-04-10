@@ -28,7 +28,8 @@ h3{
     font-size:22px;
 }
 .search-p{
-    margin:0.5vh 0;
+    margin:1vh 0;
+    font-size:16px;
     font-weight:300;
     color:rgb(78, 78, 78);
 }

@@ -14,7 +14,8 @@ const Card = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum varius eget enim duis purus. Malesuada in nibh id sed proin. Leo amet, ut hendrerit id amet quam accumsan. Volutpat fermentum scelerisque arcu maecenas.</p>
                 <div className='row'>
                     <Button label={new Date().toLocaleDateString('en-US').toString()}/>
-                    <Button label='My Journal'/>
+                    &emsp;
+                    <Button label='My Journal' className='CTA-white'/>
                 </div>
             </div>
         </div>
