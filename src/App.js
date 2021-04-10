@@ -2,6 +2,7 @@
 import './App.css';
 import Landing from './containers/landing/Landing'
 import User from './containers/user/User'
+import Dashboard from  './containers/dashboard/Dashboard'
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
     <div>
       <Landing/>
       {/* <User/> */}
+      {/* <Landing/> */}
+      {/* <User/> */}
+      {/* <Dashboard/> */}
     </div>
   );
 }
