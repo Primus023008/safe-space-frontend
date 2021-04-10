@@ -8,15 +8,25 @@ const Landing = () => {
     return (
         <div className='mainlanding'>
             <div className='leftlanding'>
-                <div className='phone'>
+                {/* <div className='phone'> */}
+                    {/* <div className='overlay'></div>
                     <video autoPlay muted>
                         <source src={vid1} type="video/mp4" />
                     </video>
-
+                    
+                </div> */}
+                <div className={`video-card`}>
+                    <video loop autoPlay muted>
+                        <source src={vid1} type="video/mp4"/>
+                    </video>
+                    <div className='vid-card-content'>
+                    Hello
+                    </div>
                 </div>
+                
             </div>
             <div className='rightlanding'>
-                <img src={img}/>
+                <img alt='logo' src={img}/>
                 <p id="h1">Your interactive <br/>self-transformation journey</p>
                 <p id="sub">An open source initiative by Ishita Kabra</p>
                 <Button label="Get Started"/>
