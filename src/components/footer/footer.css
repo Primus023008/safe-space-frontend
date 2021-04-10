@@ -1,0 +1,31 @@
+.footer{
+    width:96vw;
+    height:10vh;
+    padding: 0 2vw;
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color:#F8F8F8;
+
+
+}
+.footer img{
+    width:8vw;
+    height:auto;
+}
+
+.footer a{
+    text-decoration: none;
+    color: gray;
+    margin: 0vh 2vw;
+    font-size: 16px;
+}
+
+.footerlogo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+}

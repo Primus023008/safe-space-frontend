@@ -2,6 +2,7 @@ import React from 'react'
 import "./user.css"
 import Input from '../input/Input'
 import Button from '../button/Button'
+import Footer from '../footer/Footer'
 
 const User = () => {
     return (
@@ -35,6 +36,7 @@ const User = () => {
             <div className="bottomthird">
                 <Button label="Update Password"/>
             </div>
+            {/* <Footer/> */}
         </div>
     )
 }
