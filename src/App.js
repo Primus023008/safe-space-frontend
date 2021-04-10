@@ -1,13 +1,15 @@
 import './App.css';
 import Landing from './containers/landing/Landing'
 import User from './containers/user/User'
+import Dashboard from  './containers/dashboard/Dashboard'
 
 
 function App() {
   return (
     <div>
       {/* <Landing/> */}
-      <User/>
+      {/* <User/> */}
+      <Dashboard/>
     </div>
   );
 }
