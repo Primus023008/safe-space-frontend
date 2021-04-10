@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../button/Button'
+
 import { useForm } from 'react-hook-form';
 
 const Screen1 = (props) => {
@@ -10,8 +10,12 @@ const Screen1 = (props) => {
 
     return (
         <div className='login'>
-                <form className='login-comp' onSubmit={handleSubmit(onSubmit)}>
-                    <Button label={<><img alt="/" src="https://img.icons8.com/fluent/100/000000/google-logo.png"/> Login with Google</>} className='google-button'/> 
+            <button className='google-button'>
+            <img alt="/" src="https://img.icons8.com/fluent/100/000000/google-logo.png"/>
+                Login with Google
+            </button>
+            {/* <Button label={<> Login with Google</>} className='google-button'/> */}
+                <form className='login-comp' onSubmit={handleSubmit(onSubmit)}> 
                     <h3>or</h3>
                     <input className='input-1' name="email" placeholder='Enter Your Email' type='text'ref={register({ required: true })}/>
                     {errors.email?<span className='error'>Email is Required</span>:null}

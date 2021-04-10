@@ -5,7 +5,7 @@ const Button = (props) => {
     return (
         <div>
              <button onClick={props.onClick}
-            className='CTA'>
+            className={props.className?`${props.className}`:'CTA'}>
             {props.label}
             </button>   
         </div>

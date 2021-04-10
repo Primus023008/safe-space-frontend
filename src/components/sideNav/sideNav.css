@@ -1,0 +1,53 @@
+.main-container{
+    display:flex;
+    flex-direction:row;
+    padding:0;
+}
+.nav-box{
+    padding:2vh;
+    border-radius:5vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:#cfdab6;
+}
+.nav-cont{
+    width:10vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    position:fixed;
+}
+.nav-icon, .signout{
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+    margin:2vh 0;
+}
+.nav-icon-active{
+    color:#98A970;
+}
+.body-cont{
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+    width:90vh !important;
+    margin:4vh 0;
+    overflow-x:hidden;
+    margin-left:13vh;
+    margin-right:3vh;
+    min-height:90vh;
+}
+
+::-webkit-scrollbar {
+    width: 2vh;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background: #cfdab6;
+}
