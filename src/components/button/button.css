@@ -1,14 +1,25 @@
 .CTA{
     border: none;
     background: #98A970;
-    padding: 3vh 3vw;
+    padding: 2vh 3vw;
     text-align: center;
     font-family: "Quicksand",sans-serif;
     font-size: 18px;
-
-    margin-top:5vh;
+    margin-top:2vh;
     color: white;
     cursor:pointer;
     border:none;
+    outline: none;
+}
+.CTA-white{
+    border: solid 2px #98A970 ;
+    background: white;
+    padding: 1.65vh 3vw;
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-size: 18px;
+    margin-top:2vh;
+    color: #98a970;
+    cursor:pointer;
     outline: none;
 }

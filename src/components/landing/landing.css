@@ -36,33 +36,52 @@
     
 }
 
-.phone {
-    width: 25vw;
-    height: 92vh;
-    background: red;
-    border-radius:40px 40px 0px 0px;    ;
+.video-card{
+    min-width:350px;
+    width:350px;
+    height:90vh;
+    margin-left:5vh;
+    background:rgb(177, 168, 155);
+    border-radius:40px 40px 0 0;
+    overflow:hidden;
+    display:flex;
+    align-items: flex-start;
+    justify-content:flex-start;
 }
-
-.phone video{
-    width:100%;
-    border-radius:40px 40px 0px 0px;
+.video-card video{
+   height:96vh !important;
+   margin-top:-3vh;
+   min-height:90vh;
+   max-height:99vh;
+   width:auto;
+   min-width:350px;
 }
-
+.vid-card-content{
+    background:rgba(0, 0, 0, 0.199);
+    width:350px;
+    height:90vh;
+    overflow:hidden;
+    color:white;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-radius:40px 40px 0 0;
+}
 .rightlanding img{
     height: 100px;
     width: auto;
     margin:2vh 0vw;
 }
-
 #h1{
-    width:35vw;
+    width:90%;
     font-family:"Prata";
-    font-size: 50px;
+    font-size: 42px;
     color:rgb(68, 68, 68);
     text-align: right;
-    margin:2vh 0vw;
+    margin:4vh 0vw;
 }
-
 #sub{
     width:30vw;
     font-family:"Quicksand";
@@ -72,4 +91,45 @@
     letter-spacing:0.5px;
     margin:0;
 }
+@media screen and (max-width:1000px){
+#h1{
+    font-size: 35px;
+    }
+}
 
+@media screen and (max-width:820px){
+    .hide{
+        display:none;
+    }
+    .leftlanding {
+        width:100vw;
+        height:100vh;
+    }    
+    .video-card{
+        width:100vw;
+        height:100vh;
+        margin:0;
+        padding:0;
+        background:rgb(179, 167, 128);
+        border-radius:0;
+    }
+    .video-card video{
+        height:auto !important;
+        margin-top:0;
+        min-height:100vh;
+        max-height:200vh;
+        width:100vw;
+        min-width:100vw;
+     }
+     .vid-card-content{
+        background:rgba(0, 0, 0, 0.199);
+        width:100vw;
+        height:100vh;
+        color:white;
+        position:absolute;
+        top:0;
+        border-radius:0;
+    }
+}
+
+    

@@ -14,3 +14,18 @@
     margin: 0vh 2vw;
     font-size: 16px;
 }
+.hide-logo{
+    display:none;
+}
+@media screen and (max-width:800px){
+    .navtop a{
+        color: rgb(48, 48, 48);
+    }
+    .hide-logo{
+        display:flex;
+    }
+    .navtop {
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+    }
+}

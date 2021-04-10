@@ -1,7 +1,7 @@
 import React from 'react'
 import Comp from '../../components/dashboard/Dashboard'
 
-const Dashboard = () => {
+const DashboardCont = () => {
     return (
         <div>
             <Comp/>            
@@ -9,4 +9,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default DashboardCont
