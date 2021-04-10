@@ -1,0 +1,39 @@
+.featurebutton{
+    width:25vw;
+    height:8vh;
+    min-width:250px !important;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    border-radius: 0 5vh 5vh 0;
+    margin:1.5vh 0vw;
+}
+
+.featurebutton p{
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.redfeature{
+    background-color: #FFEBEB;
+}
+
+.bluefeature{
+    background-color: #EBF3FF;  
+}
+
+.greenfeature{
+    background-color: #F0F8E0;  
+}
+
+.pinkfeature{
+    background-color: #FCEBFF;  
+}
+
+.violetfeature{
+    background-color: #F1F1F1;  
+}
